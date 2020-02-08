@@ -40,11 +40,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
 
+          - Relational Databases are essentially the software, while SQL is the language used to interact with the system. The way we've been interacting with Relational Databases is through a library called knex.js, which uses SQL-like commands in a Javascript way.
+
 - [ ] Why do tables need a `primary key`?
+
+          - Primary keys are unique identifiers. These help with searching through databases for a particular piece of data that may be needed.
 
 - [ ] What is the name given to a table column that references the primary key on another table.
 
+          - Foreign Key references the primary key of another table.
+
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
+
+          - You would need an intermediary table that holds foreign keys that references the primary keys on the related tables.
 
 ## Minimum Viable Product
 
