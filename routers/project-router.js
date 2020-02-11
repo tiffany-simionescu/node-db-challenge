@@ -14,7 +14,7 @@ projectRouter.get('/', (req, res, next) => {
 
 // POST - /api/projects
 projectRouter.post('/', (req, res, next) => {
-  projectRouter.post(req.body)
+  Projects.addProject(req.body)
     .then(project => {
       res.status(201).json(project)
     })
